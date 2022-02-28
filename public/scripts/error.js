@@ -1,0 +1,1 @@
+$('.returnbutton').click(() => location.href = '/doctors/all');

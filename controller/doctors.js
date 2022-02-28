@@ -1,4 +1,3 @@
-
 var mysql = require('mysql');
 const mysqlCon = mysql.createPool({
     host: "mockdoctor.crrbcag1wzdz.us-west-1.rds.amazonaws.com",
