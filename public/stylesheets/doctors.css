@@ -1,0 +1,56 @@
+/* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        margin-left: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .fixed-header, .fixed-footer{
+        z-index: 100;
+        width: 100%;
+        position: fixed;        
+        background: white;
+        padding: 10px 0 0 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .topbar {
+        padding-bottom: 10px;
+    }   
+    /* Some more styles to beutify this example */
+    nav a{
+        color: black;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+        font-size: large;
+    }
+    .topbar p{
+        line-height: 200px; /* Create scrollbar to test positioning */
+    }
+
+    .checked {
+        color: orange;
+    }
+
+    .unchecked {
+        color: rgba(151, 118, 71, 0.2);
+    }
+
+    .doctortab {
+        color: darkblue;
+        font-weight: bold;
+    }
+
+    .logo:hover {
+        cursor: pointer;
+    }

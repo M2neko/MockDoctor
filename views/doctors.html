@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="/favicon.ico" type="image/x-icon" rel="icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/svg-with-js.min.css"
+        integrity="sha512-W3ZfgmZ5g1rCPFiCbOb+tn7g7sQWOQCB1AkDqrBG1Yp3iDjY9KYFh/k1AWxrt85LX5BRazEAuv+5DV2YZwghag=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../stylesheets/doctors.css" rel="stylesheet">
+    <link href="../stylesheets/member.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/060a3d8ddd.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <div class="fixed-header">
+        <div class="container">
+            <nav class="topbar">
+                <img class="me-3 logo" src="../images/MockDoctor.png" height="50px" width="100px">
+                <a href="javascript:void(0);" class="hometab">HOME</a>
+                <a href="javascript:void(0);" class="doctortab">DOCTORS</a>
+                <a href="javascript:void(0);" class="appointmenttab">APPOINTMENTS</a>
+                <a href="javascript:void(0);" class="eventab">EVENTS</a>
+                <a href="javascript:void(0);" class="contacttab">CONTACT</a>
+            </nav>
+        </div>
+        <div style="border-bottom: 2px solid #CCC; "></div>
+    </div>
+
+
+    <section class="team-section py-5">
+        <div class="container">
+            <div class="row justify-content-center" id="doctorselection">
+
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+
+<footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="module" src="../scripts/doctors.js"></script>
+    <script type="module" src="../scripts/utility.js"></script>
+
+</footer>
+
+</html>
