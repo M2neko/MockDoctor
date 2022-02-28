@@ -11,7 +11,7 @@ To find the similar doctors, I define "similar" to be only if they have the same
 
 The code can found in controller/sort.js.
 
-If Given more time, I would like to make the "similar" to be if they have the same speciality as the given doctor OR if they have the same location as the given doctor. And the sorting (after sorting by ratings) will be based on the distance from place to place. Futhermore, I would like to finish the home page and make more attributes (like Education and Publications) in the profile when one doctor is selected. Lastly, due to the limitation of time, the mobile side app is not perfect-pixel. I will improve them if given more time.
+If Given more time, I would like to make the "similar" to be if they have the same speciality as the given doctor OR if they have the same location as the given doctor. And the sorting (after sorting by ratings) will be based on the distance from place to place. Futhermore, I would like to finish the home page and make more attributes (like Education and Publications) in the profile when one doctor is selected. I would also like to use the real datasets by some public APIs and real images. Lastly, due to the limitation of time, the mobile side app is not perfect-pixel. I will improve them if given more time.
 
 
 Image Sources:
