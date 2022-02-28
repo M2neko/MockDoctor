@@ -22,7 +22,7 @@ router.get('/:doctorName/similar', async function(req, res, next) {
     var doctorName = req.params.doctorName;
     let doctor = await doctorController.getDoctorInfo(doctorName);
     doctor = doctor[0];
-    if (doctor.length < 1) {
+    if (doctor == null) {
         res.status(404).send(null);
         return;
     }

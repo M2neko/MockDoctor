@@ -5,6 +5,10 @@ router.get('/', function (req, res, next) {
   res.redirect('/doctors/all');
 });
 
+router.get('/doctors', function (req, res, next) {
+  res.redirect('/doctors/all');
+});
+
 router.get('/doctors/all', function (req, res, next) {
   res.render('doctors');
 });

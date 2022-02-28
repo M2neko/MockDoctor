@@ -14,7 +14,7 @@ axios.get('/info/' + doctorName + '/similar', {}).then(function (res) {
         makeDoctorCard(doctor);
     });
 }).catch(function (err) {
-    console.log(err);
+    location.href = '/doctors/error';
 });
 
 function fillInfo(doctor) {
